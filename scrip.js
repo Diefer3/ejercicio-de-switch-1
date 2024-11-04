@@ -22,4 +22,10 @@ switch ("estado") {
         estadocivil = "union libre";
         break;
 
-}
+        default: 
+        estadocivil = "estado civil no reconicido";
+
+    }
+
+    alert(`hola ${nombre}, tu estado civil es: ${estado}`);
+
